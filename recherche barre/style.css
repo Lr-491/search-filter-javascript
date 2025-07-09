@@ -1,0 +1,14 @@
+/* Style pour la barre de recherche */
+#searchInput {
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour les éléments de la liste */
+  #namesList li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
