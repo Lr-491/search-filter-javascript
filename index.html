@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* ce code vas mettre les element au centre de la page  */
+      /* tu selectionne le parrent en premier  */
+
+      body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      /* là c'est bon je peux le styliser comme je le souhaite maintenant  */
+      /* maintenant je retourne verifié  */
+      /* maintenant checkons ça  */
+
+      /* c'est a milieu mais pas vraiment comment je le veux pour ça je les mêttre en colonne  */
+      /* le parent ne peu pas seulement être le body cela vas ddependre que de toi okay  */
+
+      .liste {
+        list-style: none;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+      }
+
+      .liste li {
+           font-size: 2rem;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-right: 50px;
+            text-transform: capitalize;
+            color: #555;
+      }
+    </style>
+</head>
+<body>
+    <div class="search-container main-container">
+        <input type="text"  id="search-input" placeholder="search......" autocomplete="off">
+    </div>
+    <ul class="liste">
+        <li>audi</li>
+        <li>bmw</li>
+        <li>chevrolet</li>
+        <li>dorcia</li>
+        <li>dodge</li>
+        <li>ferrary</li>
+        <li>jaguar</li>
+        <li>kia</li>
+        <li>lambourguini</li>
+        <li>lotus</li>
+        <li>merceds</li>
+        <li>mini</li>
+    </ul>
+
+
+        <script src="app.js"></script>
+    
+</body>
+</html>
